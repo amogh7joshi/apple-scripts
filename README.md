@@ -1,2 +1,3 @@
-# apple-scripts
-Some useful (and comedic) scripts for MacOS.
+# Apple Scripts
+
+Some useful (and comedic) scripts for MacOS. 
