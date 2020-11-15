@@ -32,7 +32,7 @@ else if choice is "Farenheit to Kelvin" then
 	set conversion to roundNum((((temp - 32) * 5 / 9) + 273.15), 2)
 	display dialog "The temperature in Kelvin is " & conversion & "." buttons {"OK"} default button "OK"
 else
-	error number -128
+	tell me to error "Not a valid choice. Please try again."
 end if
 
 -- This can be run directly from the script editor. It converts temperatures on user input.
